@@ -9,7 +9,9 @@ import org.springframework.ai.chat.messages.Message;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MessageVO {
+
     private String role;
+
     private String content;
 
     public MessageVO(Message message) {
